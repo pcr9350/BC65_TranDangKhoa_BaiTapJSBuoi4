@@ -1,0 +1,186 @@
+!<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BÀI TẬP 4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 1 : XUẤT RA 3 SỐ THEO THỨ TỰ TĂNG DẦN
+      </h3>
+      <div class="form-group">
+        <label for="">Số 1</label>
+        <input
+          type="text"
+          name=""
+          id="num1"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Số 2</label>
+        <input
+          type="text"
+          name=""
+          id="num2"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Số 3</label>
+        <input
+          type="text"
+          name=""
+          id="num3"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="handleSoTangDan">
+        Xuất theo thứ tự tăng dần
+      </button>
+      <div
+        id="result1"
+        class="bg-danger text-center m-3 font-weight-bold"
+      ></div>
+    </div>
+
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 2 : CHÀO HỎI THÀNH VIÊN TRONG GIA ĐÌNH
+      </h3>
+      <div class="form-group">
+        <label for="">Bạn là ba, mẹ, anh trai, hay em gái:</label>
+        <input
+          type="text"
+          name=""
+          id="person"
+          class="form-control"
+          placeholder="Vui lòng ghi chánh xác: Ba hoặc Mẹ hoặc Anh trai hoặc Em gái"
+        />
+      </div>
+
+      <button class="btn btn-success" id="handlePerson">Chào hỏi</button>
+      <div id="result2" class="bg-danger text-center m-3"></div>
+    </div>
+
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">
+        BÀI 3 : XUẤT RA BAO NHIÊU SỐ CHẴN, SỐ LẺ
+      </h3>
+      <div class="form-group">
+        <label for="">Số 1</label>
+        <input
+          type="text"
+          name=""
+          id="number1"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Số 2</label>
+        <input
+          type="text"
+          name=""
+          id="number2"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">Số 3</label>
+        <input
+          type="text"
+          name=""
+          id="number3"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="handleChanLe">
+        Xuất ra số lượng số chẵn, số lẻ
+      </button>
+      <div
+        id="result3"
+        class="bg-danger text-center m-3 font-weight-bold"
+      ></div>
+    </div>
+
+    <div class="container">
+      <h3 class="bg-primary py-3 text-center">BÀI 4 : CHO BIẾT TAM GIÁC GÌ</h3>
+      <div class="form-group">
+        <label for="">CẠNH 1</label>
+        <input
+          type="text"
+          name=""
+          id="canh1"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">CẠNH 2</label>
+        <input
+          type="text"
+          name=""
+          id="canh2"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <div class="form-group">
+        <label for="">CẠNH 3</label>
+        <input
+          type="text"
+          name=""
+          id="canh3"
+          class="form-control"
+          placeholder=""
+        />
+      </div>
+      <button class="btn btn-success" id="handleTamGiac">
+        Cho biết Tam giác gì
+      </button>
+      <div
+        id="result4"
+        class="bg-danger text-center m-3 font-weight-bold"
+      ></div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
